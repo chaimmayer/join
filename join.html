@@ -1,0 +1,30 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		<div>
+			<input type="text" id="delimiterInput" placeholder="Enter delimiter">
+			<button id="enterDelimiter"> Enter </button>
+		</div>
+		<div>
+			<input type="text" id="itemToAdd" placeholder="Enter item">
+			<button id="pushToArray" onclick="inputToArray"> Push to array </button>
+		</div>
+		<div>
+			<button id="showAsString" onclick="arrayToString"> Show as string </button>
+		</div>
+		<div id="stringOfArray"> Show array as string <div>
+		<script>
+			var arr = [] 
+			function inputToArray(){
+			var item = document.getElementById("itemToAdd").value;
+			arr.push(item);
+			}
+			
+			function arrayToString(){
+			
+			}
+		</script>
+	</body>
+</html>
